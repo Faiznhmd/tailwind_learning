@@ -9,26 +9,74 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative w-1/2 h-1/2 bg-red-600">
+      <p>parent element</p>
+      <div class="absolute bottom-0 right-0 bg-red-300">
+        <p>About child</p>
+      </div>
+    </div>
 
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-400">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Top right corner -->
+    <div class="relative h-32 w-32 bg-yellow-400">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Bottom left corner -->
+    <div class="relative h-32 w-32 bg-yellow-400">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Bottom right corner -->
+    <div class="relative h-32 w-32 bg-yellow-400">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Span top edge -->
+    <div class="relative h-32 w-32 bg-yellow-400">
+      <div class="absolute inset-x-0 top-0 h-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Span left edge -->
+    <div class="relative h-32 w-32 bg-yellow-400">
+      <div class="absolute inset-y-0 w-16 left-0 bg-yellow-200"></div>
+    </div>
 
     <!-- Span right edge -->
+    <div class="relative h-32 w-32 bg-yellow-400">
+      <div class="absolute inset-y-0 w-16 right-0 bg-yellow-200"></div>
+    </div>
 
     <!-- Span bottom edge -->
+    <div class="relative h-32 w-32 bg-yellow-400">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-200"></div>
+    </div>
 
     <!-- Display Classes -->
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo illum dolor
+      labore <span class="inline font-bold"> adipisicing </span>dolores sapiente
+      doloribus voluptatem quis<span class="inline-block font-bold"
+        >This is my inline block</span
+      >
+      excepturi, sunt
+      <span class="block font-bold">Hello world</span> laboriosam enim. Quis
+      incidunt nam, accusantium tempora maiores
+      <span class="hidden font-bold">This is hidden</span>explicabo.
+    </div>
 
     <!-- Z-Index -->
+    <div class="relative h-36">
+      <div class="absolute left-10 w-24 h-24 bg-blue-300">1</div>
+      <div class="absolute left-24 w-24 h-24 bg-blue-400 z-40">2</div>
+      <div class="absolute left-36 w-24 h-24 bg-blue-500 z-10">3</div>
+      <div class="absolute left-50 w-24 h-24 bg-blue-600">4</div>
+      <div class="absolute left-7 0 w-24 h-24 bg-blue-700 z-20">5</div>
+    </div>
 
     <!-- Floats -->
   </body>
