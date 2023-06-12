@@ -9,10 +9,44 @@
   </head>
   <body>
     <!-- Flex and alignment -->
+    <div class="flex items-center h-72 w-full bg-gray-500">
+      <div class="p-10 bg-blue-100 border border-blue-950">01</div>
+      <div class="p-10 bg-blue-100 border border-blue-950">02</div>
+
+      <div class="p-10 bg-blue-100 border border-blue-950">03</div>
+      <div class="p-10 bg-blue-100 border border-blue-950">04</div>
+    </div>
 
     <!-- Flex Column, Gap and Order -->
+    <div class="flex flex-col items-center bg-red-500">
+      <div class="p-10 bg-blue-100 border border-blue-950 order-4">01</div>
+      <div class="p-10 bg-blue-100 border border-blue-950 order-3">02</div>
+
+      <div class="p-10 bg-blue-100 border border-blue-950 order-1">03</div>
+      <div class="p-10 bg-blue-100 border border-blue-950 order-2">04</div>
+    </div>
 
     <!-- Grow and shrink -->
+    <div class="flex w-full bg-gray-500">
+      <div class="p-10 w-60 bg-blue-100 border border-blue-950">01</div>
+      <div class="p-10 w-60 flex-none bg-blue-100 border border-blue-950">
+        02
+      </div>
+
+      <div class="p-10 w-60 bg-blue-100 border border-blue-950">03</div>
+      <div class="p-10 w-60 bg-blue-100 border border-blue-950">03</div>
+      <div class="p-10 bg-blue-100 border border-blue-950">03</div>
+      <div class="p-10 bg-blue-100 border border-blue-950">04</div>
+      <div class="p-10 bg-blue-100 border border-blue-950">05</div>
+      <div class="p-10 bg-blue-100 border border-blue-950">06</div>
+      <div class="p-10 bg-blue-100 border border-blue-950">07</div>
+      <div class="p-10 bg-blue-100 border border-blue-950">08</div>
+    </div>
+    <div class="flex flex-center">
+      <div class="flex-1 bg-green-700">Hello World</div>
+      <div class="flex-3 bg-green-700">Hello World</div>
+      <div class="flex-1 bg-green-700">Hello World</div>
+    </div>
   </body>
 </html>
 
